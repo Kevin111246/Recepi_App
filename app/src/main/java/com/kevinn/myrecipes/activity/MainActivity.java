@@ -1,8 +1,7 @@
-package com.kevin.myrecipes.activity;
+package com.kevinn.myrecipes.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,8 +13,8 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.kevin.myrecipes.R;
-import com.kevin.myrecipes.fragment.FavoriteFragment;
-import com.kevin.myrecipes.fragment.HomeTabFragment;
+import com.kevinn.myrecipes.fragment.FavoriteFragment;
+import com.kevinn.myrecipes.fragment.HomeTabFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

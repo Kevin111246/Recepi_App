@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.activity;
+package com.kevinn.myrecipes.activity;
 
 import android.os.Build;
 import android.support.design.widget.AppBarLayout;
@@ -13,8 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.kevin.myrecipes.R;
-import com.kevin.myrecipes.dbhelper.FavouriteDbHelper;
-import com.kevin.myrecipes.model.Recipe;
+import com.kevinn.myrecipes.dbhelper.FavouriteDbHelper;
+import com.kevinn.myrecipes.model.Recipe;
 import com.squareup.picasso.Picasso;
 
 public class RecipeDetailsActivity extends AppCompatActivity {

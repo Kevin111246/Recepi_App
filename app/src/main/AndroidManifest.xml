@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.kevinn.myrecipes.activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,12 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.RecipeDetailsActivity" />
-        <activity android:name=".activity.AboutActivity" />
+        <activity android:name="com.kevinn.myrecipes.activity.RecipeDetailsActivity" />
+        <activity android:name="com.kevinn.myrecipes.activity.AboutActivity" />
         <activity
-            android:name=".activity.RecipeAdd"
+            android:name="com.kevinn.myrecipes.activity.RecipeAdd"
             android:label="@string/title_activity_recipe_add"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.dbhelper;
+package com.kevinn.myrecipes.dbhelper;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.kevin.myrecipes.model.Recipe;
+import com.kevinn.myrecipes.model.Recipe;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.activity;
+package com.kevinn.myrecipes.activity;
 
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;

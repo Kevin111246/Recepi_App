@@ -1,10 +1,10 @@
-package com.kevin.myrecipes.adapter;
+package com.kevinn.myrecipes.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.kevin.myrecipes.fragment.RecipesFragment;
+import com.kevinn.myrecipes.fragment.RecipesFragment;
 
 public class TabPagerAdapter extends FragmentPagerAdapter {
 

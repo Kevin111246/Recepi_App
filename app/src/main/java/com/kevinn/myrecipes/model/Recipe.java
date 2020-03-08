@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.model;
+package com.kevinn.myrecipes.model;
 
 import java.io.Serializable;
 

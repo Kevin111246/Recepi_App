@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.fragment;
+package com.kevinn.myrecipes.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -15,10 +15,10 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.kevin.myrecipes.R;
-import com.kevin.myrecipes.activity.MainActivity;
-import com.kevin.myrecipes.adapter.FavoriteRecyclerViewAdapter;
-import com.kevin.myrecipes.dbhelper.FavouriteDbHelper;
-import com.kevin.myrecipes.model.Recipe;
+import com.kevinn.myrecipes.activity.MainActivity;
+import com.kevinn.myrecipes.adapter.FavoriteRecyclerViewAdapter;
+import com.kevinn.myrecipes.dbhelper.FavouriteDbHelper;
+import com.kevinn.myrecipes.model.Recipe;
 
 import java.util.ArrayList;
 import java.util.List;

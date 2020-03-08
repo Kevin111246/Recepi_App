@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.fragment;
+package com.kevinn.myrecipes.fragment;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -27,14 +27,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.kevin.myrecipes.R;
-import com.kevin.myrecipes.activity.RecipeAdd;
-import com.kevin.myrecipes.adapter.RecipeRecyclerViewAdapter;
-import com.kevin.myrecipes.model.Recipe;
+import com.kevinn.myrecipes.activity.RecipeAdd;
+import com.kevinn.myrecipes.adapter.RecipeRecyclerViewAdapter;
+import com.kevinn.myrecipes.model.Recipe;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.kevin.myrecipes.Utility.GlobalConstant.MAIN_RECIPE_ADD;
 
 
 public class RecipesFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{

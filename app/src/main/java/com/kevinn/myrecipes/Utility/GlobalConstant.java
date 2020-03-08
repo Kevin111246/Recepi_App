@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.Utility;
+package com.kevinn.myrecipes.Utility;
 
 /**
  * Created by Kevin on 07/03/2020.

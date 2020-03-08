@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.fragment;
+package com.kevinn.myrecipes.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.kevin.myrecipes.activity.MainActivity;
+import com.kevinn.myrecipes.activity.MainActivity;
 import com.kevin.myrecipes.R;
-import com.kevin.myrecipes.adapter.TabPagerAdapter;
+import com.kevinn.myrecipes.adapter.TabPagerAdapter;
 
 public class HomeTabFragment extends Fragment {
 

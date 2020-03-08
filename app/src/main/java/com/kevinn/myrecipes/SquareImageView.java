@@ -1,4 +1,4 @@
-package com.kevin.myrecipes;
+package com.kevinn.myrecipes;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package com.kevin.myrecipes.adapter;
+package com.kevinn.myrecipes.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,8 +12,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.kevin.myrecipes.R;
-import com.kevin.myrecipes.activity.RecipeDetailsActivity;
-import com.kevin.myrecipes.model.Recipe;
+import com.kevinn.myrecipes.activity.RecipeDetailsActivity;
+import com.kevinn.myrecipes.model.Recipe;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
