@@ -101,6 +101,6 @@
     <string name="description">
         <p><strong>SUMMARY :</strong></p>\n\n<p>Carrots including a suitable vegetable juices made. In order watery, choose carrots imports. Add lemon juice to taste more cohesive. The recipes that you must try.</p>\n\n<hr />\n<p><strong>INGREDIENTS :</strong></p>\n\n<ul>\n	<li>1 carrot diced import</li>\n	<li>1 red apple fruit cut into pieces</li>\n	<li>250 ml orange juice field</li>\n	<li>75 gram ice cubes</li>\n	<li>Fruit juice 1/2 lemon, take the water</li>\n</ul>\n\n<hr />\n<p><strong>DIRECTION :</strong></p>\n\n<ol>\n	<li>Masukan wortel dan apel dalam blender.</li>\n	<li>Tuang air jeruk. tambahkan es batu dan air jeruk lemon. Blender sampai rata.</li>\n	<li>Untuk 2 gelas</li>\n</ol>\n
     </string>
-    <string name="title_activity_recipe_add">RecipeAdd</string>
+    <string name="title_activity_recipe_add"> Create Recipes </string>
 
 </resources>

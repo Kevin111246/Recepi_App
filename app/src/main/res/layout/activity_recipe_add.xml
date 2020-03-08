@@ -4,7 +4,8 @@
     android:id="@+id/activity_recipe_add"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground1">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
@@ -14,13 +15,12 @@
         >
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/toolbar1"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:elevation="0dp"
-            android:paddingRight="72dp"
-            android:contentInsetRight="0dp"
-            android:contentInsetEnd="0dp"
+            android:contentInsetLeft="0dp"
+            android:contentInsetStart="0dp"
             >
             <LinearLayout
                 android:layout_width="match_parent"
@@ -28,7 +28,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center"
+                    android:gravity="left"
+                    android:layout_marginTop="13dp"
                     android:textSize="20sp"
                     android:text="@string/create_recipe"/>
             </LinearLayout>
@@ -88,8 +89,8 @@
 
         <ImageView
             android:id="@+id/complaint_content_image"
-            android:layout_width="145dp"
-            android:layout_height="187dp"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
             android:layout_gravity="center"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
@@ -107,6 +108,64 @@
             android:background="@color/main_theme_light"
             android:text="Upload Recipe Photo" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Recipe Name : "
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/edit_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded"
+                    android:ems="10" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Ingredient : "
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/ingredient"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/rounded"
+                    android:ems="10" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
+
+
 
 </LinearLayout>

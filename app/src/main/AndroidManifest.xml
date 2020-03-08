@@ -22,9 +22,7 @@
         <activity android:name="com.kevinn.myrecipes.activity.RecipeDetailsActivity" />
         <activity android:name="com.kevinn.myrecipes.activity.AboutActivity" />
         <activity
-            android:name="com.kevinn.myrecipes.activity.RecipeAdd"
-            android:label="@string/title_activity_recipe_add"
-            android:theme="@style/AppTheme" />
+            android:name="com.kevinn.myrecipes.activity.RecipeAdd" />
     </application>
 
 </manifest>
