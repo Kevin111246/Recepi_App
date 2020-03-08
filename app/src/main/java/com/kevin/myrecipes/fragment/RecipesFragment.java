@@ -1,6 +1,7 @@
 package com.kevin.myrecipes.fragment;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -26,11 +27,15 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.kevin.myrecipes.R;
+import com.kevin.myrecipes.activity.RecipeAdd;
 import com.kevin.myrecipes.adapter.RecipeRecyclerViewAdapter;
 import com.kevin.myrecipes.model.Recipe;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.kevin.myrecipes.Utility.GlobalConstant.MAIN_RECIPE_ADD;
+
 
 public class RecipesFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{
 
@@ -134,6 +139,19 @@ public class RecipesFragment extends Fragment implements SwipeRefreshLayout.OnRe
                     searchView.setQuery("", false);
                 }
             }
+        });
+
+        final android.support.v7.widget.SearchView addrecipe = (android.support.v7.widget.SearchView)
+                MenuItemCompat.getActionView(menu.findItem(R.id.plus));
+        final MenuItem searchMenuItem1 = menu.findItem(R.id.plus);
+        searchMenuItem1.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                Intent intent = new Intent(getActivity(), RecipeAdd.class);
+                startActivity(intent);
+                return false;
+            }
+
         });
 
     }
